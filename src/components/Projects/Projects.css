@@ -1,0 +1,25 @@
+@import "../../vars.css";
+
+.pContainer{
+    margin-top: 70px;
+    color: var(--color-text);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.pTitle{
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+}
+
+.pProjects{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+}

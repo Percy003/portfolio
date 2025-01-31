@@ -1,0 +1,18 @@
+[
+    {
+        "title":"to-do app",
+        "imageSrc":"project.png",
+        "description":"Your daily use to-do app with multiple functions",
+        "skills":["React","redux"],
+        "demo":"https://to-do-app-six-khaki.vercel.app/",
+        "source":"https://github.com/Percy003/ToDo-app"
+    },
+    {
+        "title":"blog_app",
+        "imageSrc":"project.png",
+        "description":"A app to add,view,edit,post and delete photos",
+        "skills":["React","redux","appwrite"],
+        "demo":"https://blog-app-one-rose.vercel.app/",
+        "source":"https://github.com/Percy003/blog_app"
+    }
+]

@@ -1,0 +1,86 @@
+@import "../../vars.css";
+
+.container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: var(--color-text);
+    z-index: 1;
+}
+.NameTitle{
+   font-size: 60px;
+   font-weight: 900;
+   margin-bottom: 30px;
+   color: var(--color-text);
+   background: linear-gradient(
+    90deg,
+    rgba(255,255,255,1) 70%,
+    rgba(255,255,255,0) 120%
+   );
+   -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text;
+   
+}
+.snt{
+    font-size: 60px;
+   font-weight: 900;
+   margin-bottom: 30px;
+   color: var(--color-text);
+   background: linear-gradient(
+    90deg,
+    rgb(16, 218, 218) 70%,
+    rgba(255,255,255,0) 120%
+   );
+   -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text;
+}
+.pName{
+    font-size: 30px;
+    margin-bottom: 52px;
+}
+.boyImage{
+    width: 40%;
+    z-index: 1;
+
+    animation-name:floating ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+    0%{
+        transform: translate(0,0px);
+    }
+    50%{
+        transform: translate(0,10px);  
+    }
+    100%{
+        transform: translate(0,-0px);
+    }
+}
+
+@media screen and (max-width:830px){
+    .container{
+        flex-direction : column-reverse;
+    }
+    .content{
+        align-items: center;
+    }
+    .NameTitle{
+        font-size: 40px;
+    }
+    .pName{
+        font-size: 20px;
+    }
+}

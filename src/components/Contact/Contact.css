@@ -1,0 +1,65 @@
+@import "../../vars.css";
+
+.fContainer{
+    color: var(--color-text);
+    margin-top: 120px;
+    background-color: var(--color-secondary);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 60px 10%;
+    gap: 10px;
+}
+.fText h2{
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    background-color: transparent !important;
+    
+}
+.fText p{
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    background-color: transparent !important;
+}
+.fLinks{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+    gap: 26px;
+    background-color: transparent !important;
+}
+.fLink{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    background-color: transparent !important;
+}
+.fLink a{
+    color: var(--color-text);
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    background-color: transparent !important;
+}
+@media screen and (max-width: 830px){
+    .fContainer{
+        flex-direction: column;
+        gap: 23px;
+        
+    }
+    .fText{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: transparent !important;
+    }
+    .fLinks{
+        align-items: center;
+        background-color: transparent !important;
+    }
+}
