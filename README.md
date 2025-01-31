@@ -1,5 +1,5 @@
 # Deployed
-it is deployed in github pages :-https://percy003.github.io/portfolio/
+it is deployed using github pages :-https://percy003.github.io/portfolio/
 
 
 Currently, two official plugins are available:
